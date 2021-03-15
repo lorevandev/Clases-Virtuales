@@ -4,20 +4,24 @@
 
 *{
     margin:0px;
-    
     box-sizing: border-box;
-} 
+}
+
+body{
+
+    background-image: url("/imagenes/pizarron.jpg");
+    background-repeat: no-repeat;
+}
 
 h1 {
     font-family: 'Quicksand', sans-serif;
     font-size: 3rem;
     padding-right: 3rem;
-   
+    color: blue;
 }
 
 #header{
    font-family: 'Quicksand', sans-serif;
-
 }
 
 ul{
@@ -26,30 +30,25 @@ ul{
 
 .nav > ul{
     display: table;
-    width: 100%;
 }
-
 
 .nav > ul > ul{
     float: left;
 }
 
 .nav li{
-    background-color: blue;
+    background-color: rgb(111, 155, 236);
     color: white;
     padding: 10px 20px;
     line-height: 3rem;
-  
-    
- }
+}
  
-
-
 .nav li a {
-    background-color: blue;
-    color: white;
+    background-color:rgb(111, 155, 236);
+    color: black;
+    font-weight: bolder;
     text-decoration: none;
-    padding: 12px 25px;
+    padding: 12px 24px;
     transition: .4s;
     font-size: 18px;
 }
@@ -66,7 +65,6 @@ ul{
 .nav > li{
     float:left;
     width: auto;
-    
 } 
 
 .nav li ul{
@@ -75,10 +73,8 @@ ul{
     min-width: 200px;
 }
 
-
 .nav li:hover > ul{
     display: block;
-    
 } 
 
 /** para un li dentro de otro li   **/
@@ -86,7 +82,6 @@ ul{
 
 .nav li ul li {
     position: relative;
-    
 }   
 
 .nav li ul li ul{
@@ -102,6 +97,12 @@ ul{
   display: flex;
   justify-content: center;
 }
+
+.footer{
+   background-color:chartreuse;
+
+}
+
 
 
 /**
