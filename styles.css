@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600&display=swap');
+
+*{
+    margin:0px;
+    
+    box-sizing: border-box;
+} 
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3rem;
+    padding-right: 3rem;
+   
+}
+
+#header{
+   font-family: 'Quicksand', sans-serif;
+
+}
+
+ul{
+    list-style: none;
+}
+
+.nav > ul{
+    display: table;
+    width: 100%;
+}
+
+
+.nav > ul > ul{
+    float: left;
+}
+
+.nav li{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    line-height: 3rem;
+  
+    
+ }
+ 
+
+
+.nav li a {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    transition: .4s;
+    font-size: 18px;
+}
+
+.nav li a:hover{
+    background-color: #e7b734;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/** para darle la forma **/
+
+.nav > li{
+    float:left;
+    width: auto;
+    
+} 
+
+.nav li ul{
+    display:none;
+    position:absolute;
+    min-width: 200px;
+}
+
+
+.nav li:hover > ul{
+    display: block;
+    
+} 
+
+/** para un li dentro de otro li   **/
+
+
+.nav li ul li {
+    position: relative;
+    
+}   
+
+.nav li ul li ul{
+    right: -246px;
+    top:0px;
+} 
+
+.menu{
+  background:rgb(130, 238, 97); 
+  height: 6em;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+/**
+.menu{
+    width: 100%;
+    background-color: violet;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    /**background-image: url("imagenes/foto-nubes.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 0.2rem solid white;
+    box-shadow: blue;
+    /** margin-bottom: 2rem; 
+    position: fixed;
+}
