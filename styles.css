@@ -11,7 +11,11 @@ body{
 
     background-image: url("/imagenes/pizarron.jpg");
     background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    
 }
+
 
 h1 {
     font-family: 'Quicksand', sans-serif;
@@ -71,6 +75,7 @@ ul{
     display:none;
     position:absolute;
     min-width: 200px;
+    text-align: center;
 }
 
 .nav li:hover > ul{
@@ -85,7 +90,7 @@ ul{
 }   
 
 .nav li ul li ul{
-    right: -246px;
+    right: -247px;
     top:0px;
 } 
 
@@ -96,6 +101,7 @@ ul{
   padding-bottom: 1rem;
   display: flex;
   justify-content: center;
+  border: 0.2rem solid greenyellow;
 }
 
 .footer{
@@ -119,3 +125,5 @@ ul{
     /** margin-bottom: 2rem; 
     position: fixed;
 }
+
+**/
